@@ -1,0 +1,18 @@
+C:\xampp\htdocs\database_report\index.php    把database_report 放在xampp\htdocs 這個資料夾中
+
+http://127.0.0.1:8080/database_report/index.php		連到index.php 的網址
+
+index 是首頁
+
+
+
+**************************需要在database 中有以下這些東西才可以用:**************************
+
+
+要連結的database: username="root" password="12345" db_name="database_report"
+
+database_report 裏面只有一個資料表,資料表名稱為member
+
+member裏面有有7個欄位, 分別是 ac pw name sex mail telephone addr
+
+不懂可以看 圖1

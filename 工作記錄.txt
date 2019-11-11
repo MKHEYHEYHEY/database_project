@@ -1,0 +1,20 @@
+2016/01/03
+修改了  資料庫中member 新增了4個欄位, 1.到校日期 2.離校時間 3.狀態 4.權限
+	member_update.php	的連接資料庫方式和訪問方法
+	member_update_from.php	的連接資料庫方式, 以及資料欄會顯示出使用者本身的資料 
+				(生日和性別欄位沒做顯示出使用者本身的資料)
+	index.php		cookie 用戶記錄的判斷
+	member_join_from.php	日期, 用戶的權限, 到校日期 的輸入, 且只有管理員才能進入這個介面
+	member_join.php		新增成員時添加了出生日期,用戶的權限選擇, 到校日期, 且某些無法設定data 給予預設值 
+	login.php		可以得知使用者權限, 從而選擇給予使用者可以瀏覽的頁面 (選擇 root_center, student_center, teacher_center)
+	member_center.php	整個頁面有兩部份,一部份顯示是menu, 且會用一部份來顯示其他頁面
+				且登入時分為三個center 分成root_member_center.php, teacher_member_center.php, student_member_center.php, 不同的center會擁有不同的超連結
+	menu.php		已移除, 因為已經可以用member_center.php 來代替
+	
+
+
+
+
+
+
+

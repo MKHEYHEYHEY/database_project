@@ -1,0 +1,93 @@
+﻿body
+{
+    background: #98FB98;
+    font-family: 微軟正黑體, Microsoft JhengHei, 新細明體, PMingLiU;
+    
+    
+}
+
+th
+{
+    background-color: #98FB98;
+}
+
+input
+{
+    border:3px #CFCFCF solid;
+    border-radius: 5px;
+    background-color:#FAFAFA; 
+    outline: 0;  
+}
+input:focus
+{
+    border: 3px solid #FFDEA1;
+    border-radius: 5px;
+    background: #FFFFC9;
+    outline: 0;
+}
+
+textarea
+{
+    border:3px #CFCFCF solid;
+    border-radius: 5px;
+    background-color:#FAFAFA; 
+    outline: 0;  
+}
+textarea:focus
+{
+    border: 3px solid #FFDEA1;
+    border-radius: 5px;
+    background: #FFFFC9;
+    outline: 0;
+}
+
+
+.LoginForm
+{
+    margin-top: 100px;
+    background-color: #9DDFFF;
+    border: 2px #A6A6FF;
+    border-style: double;
+    width: 300px;
+    text-align: center;
+    margin-left: auto; 
+    margin-right: auto; 
+}
+
+.Banner
+{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 微軟正黑體, Microsoft JhengHei, 新細明體, PMingLiU;    
+}
+
+.Button
+{
+    border:3px #CFCFCF solid;
+    border-radius: 4px;
+    background-color: #FAFAFA;
+}
+.Button:hover
+{
+    border: 3px #FFA600 solid;
+    border-radius: 4px;
+    background-color: #FFFFFF;    
+}
+
+a
+{
+    color: blue;
+    text-decoration: none;
+}
+a:hover
+{
+    color: mediumpurple;
+    background-color: #E6E2FF;
+    text-decoration: none;
+}
+
+aside
+{
+  float: right;
+  width: 30%;
+}
